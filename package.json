@@ -1,7 +1,7 @@
 {
-  "name": "com.creator-hian.unity.package-sample",
+  "name": "com.creator-hian.unity.utilities",
   "version": "0.0.1",
-  "displayName": "Hian Package Sample",
+  "displayName": "Hian Unity Utilities",
   "unity": "2021.3",
   "keywords": [
     "Hian"
@@ -11,13 +11,13 @@
     "email": "shahian12@gmail.com",
     "url": "https://github.com/creator-hian"
   },
-  "description": "Unity Package 작성을 위한 Base Repository입니다.",
+  "description": "Unity 개발을 위한 유용한 도구들을 모아둔 패키지입니다.",
   "dependencies": {},
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/@creator-hian"
   },
   "repository": {
-    // "type": "git",
-    // "url": "git+https://github.com/creator-hian/Unity-Common.git"
+    "type": "git",
+    "url": "git+https://github.com/creator-hian/Unity-Utilities.git"
   }
 }
