@@ -15,26 +15,6 @@ Unity 개발에 유용한 다양한 유틸리티 함수들을 제공하는 패�
 - 일시 정지 상태를 고려한 `WaitForSecondsRealtime` 캐싱 메커니즘
 - `Unity-Extensions` 패키지와 함께 사용 가능 (의존성 추가 필요)
 
-## 사용 예제
-
-```
-# Unity-Utilities
-
-Unity 개발에 유용한 다양한 유틸리티 함수들을 제공하는 패키지입니다.
-
-## 주요 기능
-
-- `WaitForHelper`: `WaitForSeconds` 및 `WaitForSecondsRealtime` 객체 캐싱 제공
-    - 객체 생성 오버헤드 감소 및 가비지 컬렉션 부담 감소
-    - 일정 시간 사용되지 않은 객체 자동 제거 (백그라운드 Task 사용)
-    - `ConcurrentDictionary`를 사용한 동시성 문제 해결
-- `MonoBehaviour` 확장 메서드 제공 (제거됨)
-    - `GetWaitForSeconds`: `WaitForSeconds` 객체 캐싱 제공 (제거됨)
-    - `GetWaitForSecondsRealtime`: `WaitForSecondsRealtime` 객체 캐싱 제공 (제거됨)
-    - `CleanupWaitForSecondsCache`: 일정 시간 동안 사용되지 않은 `WaitForSeconds` 캐시를 정리 (제거됨)
-- 일시 정지 상태를 고려한 `WaitForSecondsRealtime` 캐싱 메커니즘
-- `Unity-Extensions` 패키지와 함께 사용 가능 (의존성 추가 필요)
-
 ## 설치 방법
 
 [설치 방법에 대한 상세 설명 추가]
