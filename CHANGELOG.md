@@ -16,10 +16,11 @@ All notable changes to this project will be documented in this file.
 
 ### Added
 
-
 ## [0.1.0] - 2024-12-19
 
+<!-- markdownlint-disable MD024 -->
 ### Added
+<!-- markdownlint-enable MD024 -->
 
 - `EventUtils` 클래스 추가
   - `ClearEventInvocations` 메서드 추가 (이벤트 구독 해제 기능)
@@ -38,10 +39,14 @@ All notable changes to this project will be documented in this file.
 
 ## [0.0.1] - 2024-12-19
 
+<!-- markdownlint-disable MD024 -->
 ### Added
+<!-- markdownlint-enable MD024 -->
 
 - Initialize Package
 
+<!-- markdownlint-disable MD024 -->
 ### Changed
+<!-- markdownlint-enable MD024 -->
 
 ### Fixed
