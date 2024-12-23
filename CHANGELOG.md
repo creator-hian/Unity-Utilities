@@ -12,10 +12,18 @@ All notable changes to this project will be documented in this file.
   - **Patch**: 하위 호환성 있는 버그 수정
 - **최신 버전이 상단에, 이전 버전이 하단에 기록됩니다.**
 
-## [0.1.0] - 2024-12-19
+## [0.2.0] - 2024-12-20
 
 ### Added
 
+## [0.1.0] - 2024-12-19
+
+<!-- markdownlint-disable MD024 -->
+### Added
+<!-- markdownlint-enable MD024 -->
+
+- `EventUtils` 클래스 추가
+  - `ClearEventInvocations` 메서드 추가 (이벤트 구독 해제 기능)
 - `WaitForHelper` 클래스 추가
   - `WaitForSeconds` 및 `WaitForSecondsRealtime` 객체 캐싱 기능 제공
   - 정적 생성자를 사용하여 백그라운드 Task 자동 시작
@@ -31,10 +39,14 @@ All notable changes to this project will be documented in this file.
 
 ## [0.0.1] - 2024-12-19
 
+<!-- markdownlint-disable MD024 -->
 ### Added
+<!-- markdownlint-enable MD024 -->
 
 - Initialize Package
 
+<!-- markdownlint-disable MD024 -->
 ### Changed
+<!-- markdownlint-enable MD024 -->
 
 ### Fixed
